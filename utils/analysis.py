@@ -43,7 +43,7 @@ class MarketAnalyzer:
             }}
             """
 
-            response = ollama.chat(model="lladeepseek-r1:14b", messages=[{"role": "user", "content": prompt}])
+            response = ollama.chat(model="deepseek-r1:14b", messages=[{"role": "user", "content": prompt}])
             analysis_text = response['message']['content']
 
             try:
