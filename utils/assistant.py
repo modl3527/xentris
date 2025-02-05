@@ -2,7 +2,7 @@ import asyncio
 import logging
 from market_data import get_market_data
 from analysis import analyze_market
-from trading_ai_system import execute_order
+from trading_ai_system.trading_system import execute_order
 
 # Configurar logging
 logging.basicConfig(
