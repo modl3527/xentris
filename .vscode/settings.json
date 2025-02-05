@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": ["./trading_ai_system"],
+    "python.autoComplete.extraPaths": ["./trading_ai_system"],
+    "python.envFile": "${workspaceFolder}/.env"
+}
